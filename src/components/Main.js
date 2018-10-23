@@ -56,10 +56,34 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
+        <article id="skills" className={`${this.props.article === 'skills' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Skills</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+         
+        <div class="row">
+          <div class="column"> 
+            <h3> Languages </h3>
+          
+              <p>Python<br />
+               Java<br />
+               C++ <br />
+               JavaScript<br />
+               HTML<br />
+               SQL
+               </p>
+          </div>
+          <div class="column">
+            <h3> Tools </h3>
+              
+              <p>PyCharm<br />
+              Eclipse<br />
+              Github       <br />       
+              GitLab<br />
+              Bash<br />
+              Bitbucket</p>
+          </div>
+        </div>
+        
           {close}
         </article>
 

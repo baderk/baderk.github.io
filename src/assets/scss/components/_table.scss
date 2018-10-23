@@ -6,6 +6,19 @@
 
 /* Table */
 
+
+	.column{
+		float: left;
+		width: 50%;
+		padding-right: 150px;
+	}
+
+	.row{
+		content: "";
+		display: table;
+		clear: both;
+	}
+
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
