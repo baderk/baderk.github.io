@@ -3,7 +3,6 @@ module.exports = {
     title: "Bader Kanawati",
     author: "Hunter Chang"
   },
-  pathPrefix: "/baderk",
   plugins: [
     'gatsby-plugin-react-helmet',
     {
