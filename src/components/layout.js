@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import myicon from '../images/abstract.png'
 import { StaticQuery, graphql } from 'gatsby'
 
 import '../assets/scss/main.scss'
@@ -42,8 +43,12 @@ const Layout = ({ children, location }) => {
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'keywords', content: 'webdev, photography, gatsbyjs, reactjs, frontend, graphql, design, photo, photos' },
             ]}
+            link={[
+              {rel: 'shortcut icon', type: 'image/png', href: `${myicon}`},
+              ]}
+              
           >
             <html lang="en" />
           </Helmet>

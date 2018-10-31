@@ -4,13 +4,14 @@ import PropTypes from 'prop-types'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+            <span className="icon fa-server"></span>
         </div>
         <div className="content">
             <div className="inner">
                 <h1>Bader Kanawati</h1>
                 <p>Passionate about creating content, whether it's through coding or telling stories with photography. </p>
             {/*A SOFTWARE DEVELOPER THAT ENJOYS THE OUTDOORS AND TAKING PHOTOS */}
+            {/*fa-coffee or fa-code options for the logo above*/}
             </div>
         </div>
         <nav>
