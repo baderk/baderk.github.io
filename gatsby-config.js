@@ -21,6 +21,7 @@ module.exports = {
           src: `/src/images/abstract.png`,
           sizes: `512x512`,
           type: `image/png`
+        }
         ]
       },
     },
