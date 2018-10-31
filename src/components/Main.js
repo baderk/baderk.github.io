@@ -16,22 +16,8 @@ class Main extends React.Component {
         <article id="projects" className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Web Development Projects</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <h3> The Roméo Dallaire Child Soldiers Initiative </h3>
+          <h3><a href="https://github.com/baderk/Child-Soldiers-Initiative-Country-Reports"> The Roméo Dallaire Child Soldiers Initiative </a></h3>
 
-          <li>Lead a team of four developers from various levels of experiences to develop an API </li>
-          <li>Lead a team of four developers from various levels of experiences to develop an API </li>
-          <li>Lead a team of four developers from various levels of experiences to develop an API </li>
-          <li>Lead a team of four developers from various levels of experiences to develop an API </li>
-          <li>Lead a team of four developers from various levels of experiences to develop an APdfadfasdfasdfasfasfasdfasfasdfadfsafsI </li>
-          <li>Lead a team of four developers from various levels of experiences to develop an API </li>
-          <h3> subreddit word search </h3>
-
-          <li>Lead a team of four developers from various levels of experiences to develop an API </li>
-          <li>Lead a team of four developers from various levels of experiences to develop an API </li>
-          <li>Lead a team of four developers from various levels of experiences to develop an API </li>
-          <li>Lead a team of four developers from various levels of experiences to develop an API </li>
-          <li>Lead a team of four developers from various levels of experiences to develop an APdfadfasdfasdfasfasfasdfasfasdfadfsafsI </li>
-          <li>Lead a team of four developers from various levels of experiences to develop an API </li>
           {close}
         </article>
 
@@ -39,20 +25,13 @@ class Main extends React.Component {
           <h2 className="major">Work Experience</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
 
-          <h3>Master Merchant Systems&emsp;&emsp;&emsp;&emsp; Sep – Dec 2017</h3>
-          <li></li>
-          <li></li>
-          <li></li>
+          <h3>Master Merchant Systems&emsp;&emsp;&emsp;&emsp; Sept – Dec 2017</h3>
+         
 
           <h3>Dalhousie University&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; Jan – Apr 2016</h3>
-          <li></li>
-          <li></li>
-          <li></li>
-
+        
           <h3>InNetwork Inc.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; May - Aug 2016</h3>
-          <li></li>
-          <li></li>
-          <li></li>
+          
           {close}
         </article>
 
@@ -60,8 +39,8 @@ class Main extends React.Component {
           <h2 className="major">Skills</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
          
-        <div class="row">
-          <div class="column"> 
+        <div className="row">
+          <div className="column"> 
             <h3> Languages </h3>
           
               <p>Python<br />
@@ -72,7 +51,7 @@ class Main extends React.Component {
                SQL
                </p>
           </div>
-          <div class="column">
+          <div className="column">
             <h3> Tools </h3>
               
               <p>PyCharm<br />
@@ -90,7 +69,11 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          
+          <p>E-mail: <a href="mailto:baderkanawati@gmail.com">baderkanawati@gmail.com </a></p>
+
+
+       {/*    <form method="post" action="#" netlify>
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -107,12 +90,13 @@ class Main extends React.Component {
               <li><input type="submit" value="Send Message" className="special" /></li>
               <li><input type="reset" value="Reset" /></li>
             </ul>
+
           </form>
+        */}
           <ul className="icons">
-            <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
             <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
             <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            
           </ul>
           {close}
         </article>

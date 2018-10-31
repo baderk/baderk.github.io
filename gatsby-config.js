@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
+    title: "Bader Kanawati",
     author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    description: ""
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +15,13 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        // This path is relative to the root of the site.
+        icons: [
+          {
+          src: `/src/images/abstract.png`,
+          sizes: `512x512`,
+          type: `image/png`
+        ]
       },
     },
     'gatsby-plugin-sass',
