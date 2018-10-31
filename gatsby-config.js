@@ -15,14 +15,15 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
+        icon: "./src/images/abstract.png",
         // This path is relative to the root of the site.
-        icons: [
-          {
-          src: `/src/images/abstract.png`,
-          sizes: `512x512`,
-          type: `image/png`
-        }
-        ]
+        // icons: [
+        //   {
+        //   src: `./src/images/abstract.png`,
+        //   sizes: `512x512`,
+        //   type: `image/png`
+        // }
+        // ]
       },
     },
     'gatsby-plugin-sass',
