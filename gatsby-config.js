@@ -16,14 +16,26 @@ module.exports = {
         theme_color: '#663399',
         display: 'minimal-ui',
         icon: "src/images/abstract.png",
-        // This path is relative to the root of the site.
-        // icons: [
-        //   {
-        //   src: `./src/images/abstract.png`,
-        //   sizes: `512x512`,
-        //   type: `image/png`
-        // }
-        // ]
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-88049161-2",
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: false,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Enables Google Optimize using your container Id
+        optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+        // Any additional create only fields (optional)
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "baderkanawati.com",
       },
     },
     'gatsby-plugin-sass',

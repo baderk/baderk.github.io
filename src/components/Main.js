@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
