@@ -14,27 +14,36 @@ class Main extends React.Component {
     return (
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
+
+        {/* PROJECTS */}
+
+
         <article id="projects" className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Web Development Projects</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
           <h3><a href="https://github.com/baderk/Child-Soldiers-Initiative-Country-Reports"> The Roméo Dallaire Child Soldiers Initiative </a></h3>
-
+          <h3><a href="https://github.com/baderk/redditAPI"> Subreddit Crawler </a></h3>
           {close}
         </article>
+
+
+        {/* WORK */}
+
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work Experience</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
 
           <h3>Master Merchant Systems&emsp;&emsp;&emsp;&emsp; Sept – Dec 2017</h3>
-         
-
           <h3>Dalhousie University&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; Jan – Apr 2016</h3>
-        
           <h3>InNetwork Inc.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; May - Aug 2016</h3>
           
           {close}
         </article>
+
+
+        {/* SKILLS */}
+
 
         <article id="skills" className={`${this.props.article === 'skills' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Skills</h2>
@@ -54,7 +63,7 @@ class Main extends React.Component {
           </div>
           <div className="column">
             <h3> Tools </h3>
-              
+
               <p>PyCharm<br />
               Eclipse<br />
               Github       <br />       
@@ -63,9 +72,25 @@ class Main extends React.Component {
               Bitbucket</p>
           </div>
         </div>
-        
           {close}
         </article>
+
+
+         {/* SIDE HUSTLE */}
+
+
+       {/* <article id="projects" className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Web Development Projects</h2>
+          <span className="image main"><img src={pic01} alt="" /></span>
+          <h3><a href="https://github.com/baderk/Child-Soldiers-Initiative-Country-Reports"> The Roméo Dallaire Child Soldiers Initiative </a></h3>
+          <h3><a href="https://github.com/baderk/redditAPI"> Subreddit Crawler </a></h3>
+          {close}
+        </article>
+
+      */}
+
+      
+        {/* CONTACT */}
 
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
