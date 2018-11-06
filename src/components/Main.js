@@ -79,15 +79,18 @@ class Main extends React.Component {
          {/* SIDE HUSTLE */}
 
 
-       {/* <article id="projects" className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Web Development Projects</h2>
+       <article id="side-hustle" className={`${this.props.article === 'side-hustle' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Side Hustle</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <h3><a href="https://github.com/baderk/Child-Soldiers-Initiative-Country-Reports"> The Roméo Dallaire Child Soldiers Initiative </a></h3>
-          <h3><a href="https://github.com/baderk/redditAPI"> Subreddit Crawler </a></h3>
+          
+          <h3> Gallery of my photography coming soon! </h3>
+          <p> If I'm not sitting infront of my computer screen working on a new project, you'll find me taking 
+          photos outside and looking for nice boulders to climb! </p>
+
           {close}
         </article>
 
-      */}
+      
 
       
         {/* CONTACT */}
