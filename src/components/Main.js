@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import { Link } from 'gatsby'
 
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
@@ -80,7 +81,7 @@ class Main extends React.Component {
 
 
        <article id="side-hustle" className={`${this.props.article === 'side-hustle' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Side Hustle</h2>
+          <Link to="/gallery"><h2 className="major">Side Hustle</h2></Link>
           <span className="image main"><img src={pic01} alt="" /></span>
           
           <h3> Gallery of my photography coming soon! </h3>
