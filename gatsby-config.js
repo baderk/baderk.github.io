@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Bader Kanawati",
-    author: "Hunter Chang",
+    author: "",
     description: ""
   },
   plugins: [
@@ -44,6 +44,13 @@ module.exports = {
         cookieDomain: "baderkanawati.com",
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `image`,
+          path: `${__dirname}/src/images/`,
+        }
+    },
   //   {
   //   resolve: `gatsby-plugin-google-tagmanager`,
   //   options: {
@@ -59,8 +66,11 @@ module.exports = {
   //   },
   // },
 
-  
+
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
+    // 'gatsby-plugin-sharp',
+    // 'gatsby-transformer-sharp'
+
   ],
 }

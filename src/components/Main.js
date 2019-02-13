@@ -38,7 +38,7 @@ class Main extends React.Component {
           <h3>Master Merchant Systems&emsp;&emsp;&emsp;&emsp; Sept – Dec 2017</h3>
           <h3>Dalhousie University&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; Jan – Apr 2016</h3>
           <h3>InNetwork Inc.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; May - Aug 2016</h3>
-          
+
           {close}
         </article>
 
@@ -49,11 +49,11 @@ class Main extends React.Component {
         <article id="skills" className={`${this.props.article === 'skills' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Skills</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-         
+
         <div className="row">
-          <div className="column"> 
+          <div className="column">
             <h3> Languages </h3>
-          
+
               <p>Python<br />
                Java<br />
                C++ <br />
@@ -67,7 +67,7 @@ class Main extends React.Component {
 
               <p>PyCharm<br />
               Eclipse<br />
-              Github       <br />       
+              Github       <br />
               GitLab<br />
               Bash<br />
               Bitbucket</p>
@@ -83,23 +83,23 @@ class Main extends React.Component {
        <article id="side-hustle" className={`${this.props.article === 'side-hustle' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <Link to="/gallery"><h2 className="major">Side Hustle</h2></Link>
           <span className="image main"><img src={pic01} alt="" /></span>
-          
+
           <h3> Gallery of my photography coming soon! </h3>
-          <p> If I'm not sitting infront of my computer screen working on a new project, you'll find me taking 
+          <p> If I'm not sitting infront of my computer screen working on a new project, you'll find me taking
           photos outside and looking for nice boulders to climb! </p>
 
           {close}
         </article>
 
-      
 
-      
+
+
         {/* CONTACT */}
 
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          
+
           <p>E-mail: <a href="mailto:baderkanawati@gmail.com">baderkanawati@gmail.com </a></p>
 
 
@@ -126,7 +126,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
             <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
-            
+
           </ul>
           {close}
         </article>
