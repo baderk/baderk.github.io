@@ -77,11 +77,11 @@ class Main extends React.Component {
         </article>
 
 
-         {/* SIDE HUSTLE */}
+         {/* Gallery */}
 
 
-       <article id="side-hustle" className={`${this.props.article === 'side-hustle' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <Link to="/gallery"><h2 className="major">Side Hustle</h2></Link>
+       <article id="gallery" className={`${this.props.article === 'gallery' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <Link to="/gallery"><h2 className="major">Gallery</h2></Link>
           <span className="image main"><img src={pic01} alt="" /></span>
 
           <h3> Gallery of my photography coming soon! </h3>

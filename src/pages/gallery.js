@@ -79,7 +79,7 @@ class GalleryPage extends React.Component {
       <Layout location={this.props.location}>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
-           
+            {/* Gallery goes here */} 
 
             <Footer timeout={this.state.timeout} />
           </div>
