@@ -45,6 +45,9 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-transformer-sharp`
+    },
+    {
       resolve: `gatsby-source-filesystem`,
         options: {
           name: `image`,
@@ -68,9 +71,9 @@ module.exports = {
 
 
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
     // 'gatsby-plugin-sharp',
-    // 'gatsby-transformer-sharp'
+    'gatsby-transformer-sharp'
 
   ],
 }
